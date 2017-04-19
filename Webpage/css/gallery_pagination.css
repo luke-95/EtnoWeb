@@ -1,0 +1,56 @@
+/* gallery pagination */
+.gallery_pagination_container p{
+	height:30px;
+	color:#BD1929;
+	font-size: 1.5em;
+}
+.gallery_pagination_container .gallery_next_button{
+	float:right;
+	margin: 1% 1% 0.5% 0px;
+	font-weight:bold;
+}
+.gallery_pagination_container .gallery_cur_page{	
+	text-align:center;
+	margin: 1% 1% 0.5% 0px;
+	font-weight:bold;
+	text-decoration:underline;
+	font-size:2em;
+}
+.gallery_pagination_container .gallery_cur_page_minus3{	
+	float:left;
+	text-align:left;
+	margin: 1% 1% 0.5% 2%;
+}
+.gallery_pagination_container .gallery_cur_page_plus3{	
+	float:right;
+	text-align:right;
+	margin: 1% 2% 0.5% 0px;
+}
+.gallery_pagination_container .gallery_cur_page_minus2{	
+	float:left;
+	text-align:left;
+	margin: 1% 1% 0.5% 2%;
+}
+.gallery_pagination_container .gallery_cur_page_plus2{	
+	float:right;
+	text-align:right;
+	margin: 1% 2% 0.5% 0px;
+	font-size:1.5em;
+}
+.gallery_pagination_container .gallery_cur_page_minus1{	
+	float:left;
+	text-align:left;
+	margin: 1% 1% 0.5% 2%;
+}
+.gallery_pagination_container .gallery_cur_page_plus1{	
+	float:right;
+	text-align:right;
+	margin: 1% 2% 0.5% 0px;
+}
+.gallery_pagination_container .gallery_prev_button{
+	float:left;
+	margin: 1% 0px 0.5% 1%;
+	font-weight:bold;
+}
+
+/* end of gallery pagination */

@@ -1,0 +1,49 @@
+getFullInfoByValueAndColumn
+
+-folosita cand userul cauta DOAR dupa un cuvant cheie
+-parametri:
+	1: cuvantul cheie dupa care se face cautarea (ex: 'moara')
+	2: coloana in care se cauta cuvantul (ex: 'denumirea_ansamblului')
+	3: min_rownum
+	4: max_rownum - folosite pentru paginare. Afiseaza un anumit numar de rezultate in functie de intervalul dat (ex: rez de la 10 la 200)
+-apel:
+select * from TABLE(full_info.getFullInfoByValueAndColumn('Moara', 'denumirea_ansamblului', 10, 200)); 
+--cauta cuvantul 'moara' in demunirile ansamblurilor si retuneaza rezulatatele de la 10 la 200
+*******************************************************************************************************
+getDetailsById
+
+-folosita pentru pagina de detalii
+-returneaza detaliile unui anumit ansamblu, folosind id ul dat
+-parametri:
+	1: id-ul ansamblului pt care se doresc detalii
+-apel:
+select * from TABLE(full_info.getDetailsById('1077')); --returneaza detaliile ansamblului cu id-ul '1077'
+*********************************************************************************************************
+getAttractionsByPriceRange
+
+-folosita cand userul face cautarea DOAR dupa pret (fara cuvinte cheie)
+-parametri:
+	1: categoria pretului cautat ('student', 'elev' sau 'angajat')
+	2: pretul minim
+	3: pretul maxim
+	4: min_rownum
+	5: max_rownum (pt paginare)
+-apel:
+select * from TABLE(price_filter.getAttractionsByPriceRange('student', 0, 10, 1, 20)); 
+--cauta ansamblurile al caror bilet are pretul intre 0 si 5 RON pentru categoria 'student' si returneaza rezulattele de la 1 la 20
+*************************************************************************************************************
+getAttractionsByWordAndPrice
+
+-folosita cand userul cauta SI dupa cuvinte cheie SI dupa pret
+-parametri:
+	1: cuvantul cheie dupa care se face cautarea
+	2: numele coloanei in care se cauta
+	3: pretul minim
+	4: pretum maxim
+	5: categoria pretului (student, elev, angajat)
+	6: min_rownum
+	7: max_rownum (pt paginare)
+-apel:
+select * from TABLE(price_filter.getAttractionsByWordAndPrice('moara', 'denumirea_ansamblului', 0, 20, 'student', 1, 200));
+
+

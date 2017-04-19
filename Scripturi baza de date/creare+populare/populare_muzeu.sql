@@ -1,0 +1,17 @@
+Insert into muzeu (ID_MUZEU,NUME) values (1,'Muzeul "Haszmann Pál" - Cernatu de Sus');
+Insert into muzeu (ID_MUZEU,NUME) values (2,'Muzeul de Etnografie si Arta Populara - Baia Mare');
+Insert into muzeu (ID_MUZEU,NUME) values (3,'Muzeul Etnografic - Reghin');
+Insert into muzeu (ID_MUZEU,NUME) values (4,'Muzeul Bran');
+Insert into muzeu (ID_MUZEU,NUME) values (5,'Muzeul Satului Valcean - Bujoreni');
+Insert into muzeu (ID_MUZEU,NUME) values (6,'Complexul National Muzeal "ASTRA" - Sibiu');
+Insert into muzeu (ID_MUZEU,NUME) values (7,'Muzeul Arhitecturii Populare din Gorj - Curtisoara');
+Insert into muzeu (ID_MUZEU,NUME) values (8,'Muzeul Taranului Roman - Bucuresti');
+Insert into muzeu (ID_MUZEU,NUME) values (9,'Muzeul Etnografic al Transilvaniei. Parcul Etnografic "Romulus Vuia" - Cluj Napoca');
+Insert into muzeu (ID_MUZEU,NUME) values (10,'Muzeul Satului din Bucovina - Suceava');
+Insert into muzeu (ID_MUZEU,NUME) values (11,'Muzeul Satului Banatean - "Padurea Verde" - Timisoara');
+Insert into muzeu (ID_MUZEU,NUME) values (12,'Muzeul Maramuresan. Sectia în aer liber - Sighetu Marmatiei');
+Insert into muzeu (ID_MUZEU,NUME) values (13,'Muzeul Secuiesc al Ciucului - Miercurea Ciuc');
+Insert into muzeu (ID_MUZEU,NUME) values (14,'Muzeul Viticulturii si Pomiculturii - Golesti');
+Insert into muzeu (ID_MUZEU,NUME) values (15,'Rezervatia de Arhitectura Vranceana - Focsani');
+Insert into muzeu (ID_MUZEU,NUME) values (16,'ICEM. Muzeul de Arta Populara si Etnografie - Tulcea');
+Insert into muzeu (ID_MUZEU,NUME) values (17,'Muzeul National al Satului "Dimitrie Gusti" - Bucuresti');

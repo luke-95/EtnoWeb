@@ -1,0 +1,35 @@
+.search_box_container{
+	clear:both;
+	width:100%;
+	float:left;
+	padding-left:0px;
+	padding-right:0px;
+	margin-right:0px;
+}
+.search_input_container {
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.search_input_container input[type="text"], p, button{
+	padding: 0px;
+	margin:0px;
+}
+.left_filter {
+	display:block;
+	width:100%;
+	border:none;
+}
+
+.left_filter .radio_input_container{
+	margin-left:0.33%;
+	padding:0;
+	width:33%;
+	float:left;
+}
+
+
+.left_filter label h1 h2 input[type="radio"], input[type="checkbox"]{
+	margin-top:0px;
+	margin-bottom: 0px;
+}

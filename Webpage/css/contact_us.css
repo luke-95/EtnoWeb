@@ -1,0 +1,24 @@
+/* contact page */
+.contact_text_container{
+	padding-top:5%;
+	width:35%;
+	min-width: 300px;
+	margin: 0 auto;
+	font-size:1.8em;
+}
+.contact_text_container p{
+	padding: 0px 1% 5% 0px;
+}
+.authors{
+	font-size: 0.9em;
+	margin:5% 0px 5% 0px;
+	text-align:right;
+}
+.authors p{
+	padding: 1% 0px 0.7% 0px;
+	font-weight:bold;
+}
+.authors ul{
+	list-style-type: none;	
+}
+/* end of contact page */
